@@ -1,0 +1,88 @@
+name: Auto-Deploy
+
+# Activate Action when push to main.
+on:
+  push:
+    branches:
+      - main
+  release:
+    types:
+      - published
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: Install Hexo
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
+
+      - name: Cache Hexo
+        id: cache-npm
+        uses: actions/cache@v4
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Install dependency
+        if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+        run: |
+          echo 'Installing "hexo-asset-image"...'
+          npm install hexo-asset-image --save
+          echo 'Dependency install complete.'
+      
+      - name: Apply patch
+        run: |
+          bash patch.sh
+
+      - name: Generate static files
+        run: |
+          hexo clean
+          hexo generate
+          echo 'Static files generated.'
+
+      - name: Upload to server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "public/"
+          target: ${{ secrets.DEPLOY_PATH }}
+          overwrite: true
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    needs: build
+
+    steps:
+      - name: Run deploy script
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            cd ${{ secrets.DEPLOY_PATH }}
+            ./deploy.sh public tutorial
+        

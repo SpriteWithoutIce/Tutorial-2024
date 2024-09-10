@@ -1,0 +1,1956 @@
+/*
+                        _______
+                       /       \
+                      .==.    .==.
+                     ((  ))==((  ))
+                    / "=="    "=="\
+                   /____|| || ||___\
+       ________     ____    ________  ___    ___
+       |  ___  \   /    \   |  ___  \ |  |  /  /
+       |  |  \  \ /  /\  \  |  |  \  \|  |_/  /
+       |  |   )  /  /__\  \ |  |__/  /|  ___  \
+       |  |__/  /  ______  \|  ____  \|  |  \  \
+_______|_______/__/ ____ \__\__|___\__\__|___\__\____
+|  ___  \ |  ____/ /    \   |  ___  \ |  ____|  ___  \
+|  |  \  \|  |___ /  /\  \  |  |  \  \|  |___|  |  \  \
+|  |__/  /|  ____/  /__\  \ |  |   )  |  ____|  |__/  /
+|  ____  \|  |__/  ______  \|  |__/  /|  |___|  ____  \
+|__|   \__\____/__/      \__\_______/ |______|__|   \__\
+                https://darkreader.org
+*/
+
+/*! Dark reader generated CSS | Licensed under MIT https://github.com/darkreader/darkreader/blob/main/LICENSE */
+
+/* User-Agent Style */
+@layer {
+    html {
+        background-color: #181818 !important;
+    }
+    html {
+        color-scheme: dark !important;
+    }
+    iframe {
+        color-scheme: initial;
+    }
+    html, body {
+        background-color: #181818;
+    }
+    html, body {
+        border-color: #736b5e;
+        color: #e8e6e3;
+    }
+    a {
+        color: #3391ff;
+    }
+    table {
+        border-color: #545b5e;
+    }
+    mark {
+        color: #e8e6e3;
+    }
+    ::placeholder {
+        color: #b2aba1;
+    }
+    input:-webkit-autofill,
+    textarea:-webkit-autofill,
+    select:-webkit-autofill {
+        background-color: #404400 !important;
+        color: #e8e6e3 !important;
+    }
+    ::-webkit-scrollbar {
+        background-color: #202324 !important;
+        color: #aba499 !important;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #454a4d !important;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #575e62 !important;
+    }
+    ::-webkit-scrollbar-thumb:active {
+        background-color: #484e51 !important;
+    }
+    ::-webkit-scrollbar-corner {
+        background-color: #181a1b !important;
+    }
+    ::selection {
+        background-color: #004daa !important;
+        color: #e8e6e3 !important;
+    }
+    ::-moz-selection {
+        background-color: #004daa !important;
+        color: #e8e6e3 !important;
+    }
+    }
+    
+    /* Invert Style */
+    .jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula {
+        filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+    }
+    
+    /* Variables Style */
+    :root {
+       --darkreader-neutral-background: #181818;
+       --darkreader-neutral-text: #e8e6e3;
+       --darkreader-selection-background: #004daa;
+       --darkreader-selection-text: #e8e6e3;
+    }
+    
+    /* Modified CSS */
+    a {
+        background-color: transparent;
+    }
+    fieldset {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    legend {
+        color: inherit;
+    }
+    summary {
+        outline-color: initial;
+    }
+    html {
+        -webkit-tap-highlight-color: transparent;
+    }
+    body {
+        background-color: #181818;
+        background-image: initial;
+        color: rgb(188, 182, 173);
+    }
+    a {
+        color: rgb(94, 139, 219);
+        outline-color: initial;
+        text-decoration-color: initial;
+    }
+    a:focus {
+        box-shadow: rgba(34, 32, 144, 0.2) 0px 0px 0px 0.1rem;
+    }
+    a.active,
+    a:active,
+    a:focus,
+    a:hover {
+        color: rgb(90, 136, 218);
+        text-decoration-color: initial;
+    }
+    a:visited {
+        color: rgb(124, 160, 225);
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: inherit;
+    }
+    abbr[title] {
+        border-bottom-color: initial;
+        text-decoration-color: initial;
+    }
+    kbd {
+        background-color: rgb(38, 44, 53);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    mark {
+        background-color: rgb(72, 51, 0);
+        background-image: initial;
+        border-bottom-color: rgb(148, 105, 0);
+        color: rgb(188, 182, 173);
+    }
+    blockquote {
+        border-left-color: rgb(57, 62, 64);
+    }
+    ul {
+        list-style-image: initial;
+    }
+    ol {
+        list-style-image: initial;
+    }
+    .lang-cjk ins,
+    .lang-cjk u,
+    :lang(ja) ins,
+    :lang(ja) u,
+    :lang(zh) ins,
+    :lang(zh) u {
+        border-bottom-color: initial;
+        text-decoration-color: initial;
+    }
+    .table.table-striped tbody tr:nth-of-type(2n+1) {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .table tbody tr.active,
+    .table.table-striped tbody tr.active {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+    }
+    .table.table-hover tbody tr:hover {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+    }
+    .table td,
+    .table th {
+        border-bottom-color: rgb(57, 62, 64);
+    }
+    .btn {
+        background-color: #181818;
+        background-image: initial;
+        border-color: rgb(32, 30, 134);
+        color: rgb(94, 139, 219);
+        outline-color: initial;
+        text-decoration-color: initial;
+    }
+    .btn:focus {
+        box-shadow: rgba(34, 32, 144, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .btn:focus,
+    .btn:hover {
+        background-color: rgb(29, 31, 32);
+        background-image: initial;
+        border-color: rgb(33, 31, 138);
+        text-decoration-color: initial;
+    }
+    .btn.active,
+    .btn:active {
+        background-color: rgb(36, 34, 151);
+        background-image: initial;
+        border-color: rgb(33, 32, 144);
+        color: rgb(232, 230, 227);
+        text-decoration-color: initial;
+    }
+    .btn.active.loading::after,
+    .btn:active.loading::after {
+        border-bottom-color: rgb(48, 52, 54);
+        border-left-color: rgb(48, 52, 54);
+    }
+    .btn.btn-primary {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        border-color: rgb(33, 31, 138);
+        color: rgb(232, 230, 227);
+    }
+    .btn.btn-primary:focus,
+    .btn.btn-primary:hover {
+        background-color: rgb(37, 35, 156);
+        background-image: initial;
+        border-color: rgb(33, 32, 144);
+        color: rgb(232, 230, 227);
+    }
+    .btn.btn-primary.active,
+    .btn.btn-primary:active {
+        background-color: rgb(38, 36, 161);
+        background-image: initial;
+        border-color: rgb(34, 33, 147);
+        color: rgb(232, 230, 227);
+    }
+    .btn.btn-primary.loading::after {
+        border-bottom-color: rgb(48, 52, 54);
+        border-left-color: rgb(48, 52, 54);
+    }
+    .btn.btn-success {
+        background-color: rgb(40, 146, 54);
+        background-image: initial;
+        border-color: rgb(41, 149, 55);
+        color: rgb(232, 230, 227);
+    }
+    .btn.btn-success:focus {
+        box-shadow: rgba(40, 146, 54, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .btn.btn-success:focus,
+    .btn.btn-success:hover {
+        background-color: rgb(38, 139, 51);
+        background-image: initial;
+        border-color: rgb(42, 151, 56);
+        color: rgb(232, 230, 227);
+    }
+    .btn.btn-success.active,
+    .btn.btn-success:active {
+        background-color: rgb(34, 123, 46);
+        background-image: initial;
+        border-color: rgb(43, 157, 58);
+        color: rgb(232, 230, 227);
+    }
+    .btn.btn-success.loading::after {
+        border-bottom-color: rgb(48, 52, 54);
+        border-left-color: rgb(48, 52, 54);
+    }
+    .btn.btn-error {
+        background-color: rgb(186, 69, 0);
+        background-image: initial;
+        border-color: rgb(190, 70, 0);
+        color: rgb(232, 230, 227);
+    }
+    .btn.btn-error:focus {
+        box-shadow: rgba(186, 69, 0, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .btn.btn-error:focus,
+    .btn.btn-error:hover {
+        background-color: rgb(178, 66, 0);
+        background-image: initial;
+        border-color: rgb(193, 72, 0);
+        color: rgb(232, 230, 227);
+    }
+    .btn.btn-error.active,
+    .btn.btn-error:active {
+        background-color: rgb(157, 58, 0);
+        background-image: initial;
+        border-color: rgb(201, 74, 0);
+        color: rgb(232, 230, 227);
+    }
+    .btn.btn-error.loading::after {
+        border-bottom-color: rgb(48, 52, 54);
+        border-left-color: rgb(48, 52, 54);
+    }
+    .btn.btn-link {
+        background-color: initial;
+        background-image: initial;
+        border-color: transparent;
+        color: rgb(94, 139, 219);
+    }
+    .btn.btn-link.active,
+    .btn.btn-link:active,
+    .btn.btn-link:focus,
+    .btn.btn-link:hover {
+        color: rgb(90, 136, 218);
+    }
+    .btn.btn-clear {
+        background-color: initial;
+        background-image: initial;
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+        color: currentcolor;
+        text-decoration-color: initial;
+    }
+    .btn.btn-clear:focus,
+    .btn.btn-clear:hover {
+        background-color: rgba(28, 30, 31, 0.5);
+        background-image: initial;
+    }
+    .form-input {
+        background-color: #181818;
+        background-image: none;
+        border-color: rgb(64, 70, 72);
+        color: rgb(188, 182, 173);
+        outline-color: initial;
+    }
+    .form-input:focus {
+        border-color: rgb(32, 30, 134);
+        box-shadow: rgba(34, 32, 144, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .form-input::placeholder {
+        color: rgb(195, 190, 182);
+    }
+    .form-input-hint {
+        color: rgb(195, 190, 182);
+    }
+    .has-success .form-input-hint,
+    .is-success + .form-input-hint {
+        color: rgb(88, 209, 103);
+    }
+    .has-error .form-input-hint,
+    .is-error + .form-input-hint {
+        color: rgb(255, 121, 42);
+    }
+    .form-select {
+        background-color: #181818;
+        background-image: initial;
+        border-color: rgb(64, 70, 72);
+        color: inherit;
+        outline-color: initial;
+    }
+    .form-select:focus {
+        border-color: rgb(32, 30, 134);
+        box-shadow: rgba(34, 32, 144, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .form-select:not([multiple]):not([size]) {
+        background-color: #181818;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA0IDUnPjxwYXRoIGZpbGw9JyM2NjcxODknIGQ9J00yIDBMMCAyaDR6bTAgNUwwIDNoNHonLz48L3N2Zz4=");
+    }
+    .form-checkbox input:focus + .form-icon,
+    .form-radio input:focus + .form-icon,
+    .form-switch input:focus + .form-icon {
+        border-color: rgb(32, 30, 134);
+        box-shadow: rgba(34, 32, 144, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .form-checkbox input:checked + .form-icon,
+    .form-radio input:checked + .form-icon,
+    .form-switch input:checked + .form-icon {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        border-color: rgb(32, 30, 134);
+    }
+    .form-checkbox .form-icon,
+    .form-radio .form-icon,
+    .form-switch .form-icon {
+        border-color: rgb(64, 70, 72);
+    }
+    .form-checkbox .form-icon,
+    .form-radio .form-icon {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .form-checkbox input:active + .form-icon,
+    .form-radio input:active + .form-icon {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+    }
+    .form-checkbox input:checked + .form-icon::before {
+        border-color: rgb(48, 52, 54);
+    }
+    .form-checkbox input:indeterminate + .form-icon {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        border-color: rgb(32, 30, 134);
+    }
+    .form-checkbox input:indeterminate + .form-icon::before {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .form-radio input:checked + .form-icon::before {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .form-switch .form-icon {
+        background-color: rgb(51, 58, 70);
+        background-image: initial;
+    }
+    .form-switch .form-icon::before {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .form-switch input:active + .form-icon::before {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .input-group .input-group-addon {
+        background-color: #181818;
+        background-image: initial;
+        border-color: rgb(64, 70, 72);
+    }
+    .form-input.is-success,
+    .form-select.is-success,
+    .has-success .form-input,
+    .has-success .form-select {
+        background-color: rgb(14, 42, 26);
+        background-image: initial;
+        border-color: rgb(40, 145, 54);
+    }
+    .form-input.is-success:focus,
+    .form-select.is-success:focus,
+    .has-success .form-input:focus,
+    .has-success .form-select:focus {
+        box-shadow: rgba(40, 146, 54, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .form-input.is-error,
+    .form-select.is-error,
+    .has-error .form-input,
+    .has-error .form-select {
+        background-color: rgb(56, 21, 0);
+        background-image: initial;
+        border-color: rgb(185, 69, 0);
+    }
+    .form-input.is-error:focus,
+    .form-select.is-error:focus,
+    .has-error .form-input:focus,
+    .has-error .form-select:focus {
+        box-shadow: rgba(186, 69, 0, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .form-checkbox.is-error .form-icon,
+    .form-radio.is-error .form-icon,
+    .form-switch.is-error .form-icon,
+    .has-error .form-checkbox .form-icon,
+    .has-error .form-radio .form-icon,
+    .has-error .form-switch .form-icon {
+        border-color: rgb(185, 69, 0);
+    }
+    .form-checkbox.is-error input:checked + .form-icon,
+    .form-radio.is-error input:checked + .form-icon,
+    .form-switch.is-error input:checked + .form-icon,
+    .has-error .form-checkbox input:checked + .form-icon,
+    .has-error .form-radio input:checked + .form-icon,
+    .has-error .form-switch input:checked + .form-icon {
+        background-color: rgb(186, 69, 0);
+        background-image: initial;
+        border-color: rgb(185, 69, 0);
+    }
+    .form-checkbox.is-error input:focus + .form-icon,
+    .form-radio.is-error input:focus + .form-icon,
+    .form-switch.is-error input:focus + .form-icon,
+    .has-error .form-checkbox input:focus + .form-icon,
+    .has-error .form-radio input:focus + .form-icon,
+    .has-error .form-switch input:focus + .form-icon {
+        border-color: rgb(185, 69, 0);
+        box-shadow: rgba(186, 69, 0, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .form-checkbox.is-error input:indeterminate + .form-icon,
+    .has-error .form-checkbox input:indeterminate + .form-icon {
+        background-color: rgb(186, 69, 0);
+        background-image: initial;
+        border-color: rgb(185, 69, 0);
+    }
+    .form-input:not(:placeholder-shown):invalid {
+        border-color: rgb(185, 69, 0);
+    }
+    .form-input:not(:placeholder-shown):invalid:focus {
+        background-color: rgb(56, 21, 0);
+        background-image: initial;
+        box-shadow: rgba(186, 69, 0, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .form-input:not(:placeholder-shown):invalid + .form-input-hint {
+        color: rgb(255, 121, 42);
+    }
+    .form-input.disabled,
+    .form-input:disabled,
+    .form-select.disabled,
+    .form-select:disabled {
+        background-color: rgb(32, 35, 36);
+    }
+    .form-input[readonly] {
+        background-color: #181818;
+    }
+    input.disabled + .form-icon,
+    input:disabled + .form-icon {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+    }
+    .form-switch input.disabled + .form-icon::before,
+    .form-switch input:disabled + .form-icon::before {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .label {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+        color: rgb(180, 173, 164);
+    }
+    .label.label-primary {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .label.label-secondary {
+        background-color: rgb(29, 31, 32);
+        background-image: initial;
+        color: rgb(94, 139, 219);
+    }
+    .label.label-success {
+        background-color: rgb(40, 146, 54);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .label.label-warning {
+        background-color: rgb(153, 110, 0);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .label.label-error {
+        background-color: rgb(186, 69, 0);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    code {
+        background-color: rgb(49, 11, 11);
+        background-image: initial;
+        color: rgb(218, 78, 87);
+    }
+    .code {
+        color: rgb(188, 182, 173);
+    }
+    .code::before {
+        color: rgb(195, 190, 182);
+    }
+    .code code {
+        background-color: #181818;
+        background-image: initial;
+        color: inherit;
+    }
+    .video-responsive embed,
+    .video-responsive iframe,
+    .video-responsive object {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .figure .figure-caption {
+        color: rgb(156, 147, 134);
+    }
+    .navbar .navbar-brand {
+        text-decoration-color: initial;
+    }
+    .avatar {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        color: rgba(232, 230, 227, 0.85);
+    }
+    .avatar .avatar-icon,
+    .avatar .avatar-presence {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .avatar .avatar-presence {
+        background-color: rgb(51, 58, 70);
+        background-image: initial;
+        box-shadow: #181818 0px 0px 0px 0.1rem;
+    }
+    .avatar .avatar-presence.online {
+        background-color: rgb(40, 146, 54);
+        background-image: initial;
+    }
+    .avatar .avatar-presence.busy {
+        background-color: rgb(186, 69, 0);
+        background-image: initial;
+    }
+    .avatar .avatar-presence.away {
+        background-color: rgb(153, 110, 0);
+        background-image: initial;
+    }
+    .avatar[data-initial]::before {
+        color: currentcolor;
+    }
+    .badge:not([data-badge])::after,
+    .badge[data-badge]::after {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        box-shadow: #181818 0px 0px 0px 0.1rem;
+        color: rgb(232, 230, 227);
+    }
+    .breadcrumb {
+        list-style-image: initial;
+    }
+    .breadcrumb .breadcrumb-item {
+        color: rgb(156, 147, 134);
+    }
+    .breadcrumb .breadcrumb-item:not(:last-child) a {
+        color: rgb(156, 147, 134);
+    }
+    .breadcrumb .breadcrumb-item:not(:first-child)::before {
+        color: rgb(156, 147, 134);
+    }
+    .bar {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+    }
+    .bar .bar-item {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .bar-slider .bar-item:not(:last-child):first-child {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+    }
+    .bar-slider .bar-slider-btn {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .bar-slider .bar-slider-btn:active {
+        box-shadow: rgb(34, 32, 144) 0px 0px 0px 0.1rem;
+    }
+    .card {
+        background-color: #181818;
+        background-image: initial;
+        border-color: rgb(57, 62, 64);
+    }
+    .chip {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+        text-decoration-color: initial;
+    }
+    .chip.active {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .empty {
+        background-color: #181818;
+        background-image: initial;
+        color: rgb(156, 147, 134);
+    }
+    .menu {
+        background-color: #181818;
+        background-image: initial;
+        box-shadow: rgba(38, 44, 53, 0.3) 0px 0.05rem 0.2rem;
+        list-style-image: initial;
+    }
+    .menu.menu-nav {
+        background-color: initial;
+        background-image: initial;
+        box-shadow: none;
+    }
+    .menu .menu-item {
+        text-decoration-color: initial;
+    }
+    .menu .menu-item > a {
+        color: inherit;
+        text-decoration-color: initial;
+    }
+    .menu .menu-item > a:focus,
+    .menu .menu-item > a:hover {
+        background-color: rgb(29, 31, 32);
+        background-image: initial;
+        color: rgb(94, 139, 219);
+    }
+    .menu .menu-item > a.active,
+    .menu .menu-item > a:active {
+        background-color: rgb(29, 31, 32);
+        background-image: initial;
+        color: rgb(94, 139, 219);
+    }
+    .modal.active .modal-overlay,
+    .modal:target .modal-overlay {
+        background-color: rgba(28, 30, 31, 0.75);
+        background-image: initial;
+    }
+    .modal.modal-lg .modal-overlay {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .modal.modal-lg .modal-container {
+        box-shadow: none;
+    }
+    .modal-container {
+        background-color: #181818;
+        background-image: initial;
+        box-shadow: rgba(38, 44, 53, 0.3) 0px 0.2rem 0.5rem;
+    }
+    .modal-container .modal-header {
+        color: rgb(196, 191, 183);
+    }
+    .nav {
+        list-style-image: initial;
+    }
+    .nav .nav-item a {
+        color: rgb(156, 147, 134);
+        text-decoration-color: initial;
+    }
+    .nav .nav-item a:focus,
+    .nav .nav-item a:hover {
+        color: rgb(94, 139, 219);
+    }
+    .nav .nav-item.active > a {
+        color: rgb(172, 165, 154);
+    }
+    .nav .nav-item.active > a:focus,
+    .nav .nav-item.active > a:hover {
+        color: rgb(94, 139, 219);
+    }
+    .pagination {
+        list-style-image: initial;
+    }
+    .pagination .page-item a {
+        text-decoration-color: initial;
+    }
+    .pagination .page-item a:focus,
+    .pagination .page-item a:hover {
+        color: rgb(94, 139, 219);
+    }
+    .pagination .page-item.active a {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .panel {
+        border-color: rgb(57, 62, 64);
+    }
+    .popover .card {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+        box-shadow: rgba(38, 44, 53, 0.3) 0px 0.2rem 0.5rem;
+    }
+    .step {
+        list-style-image: initial;
+    }
+    .step .step-item:not(:first-child)::before {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+    }
+    .step .step-item a {
+        color: rgb(94, 139, 219);
+        text-decoration-color: initial;
+    }
+    .step .step-item a::before {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        border-color: rgb(48, 52, 54);
+    }
+    .step .step-item.active a::before {
+        background-color: #181818;
+        background-image: initial;
+        border-color: rgb(32, 30, 134);
+    }
+    .step .step-item.active ~ .step-item::before {
+        background-color: rgb(42, 46, 47);
+        background-image: initial;
+    }
+    .step .step-item.active ~ .step-item a {
+        color: rgb(195, 190, 182);
+    }
+    .step .step-item.active ~ .step-item a::before {
+        background-color: rgb(42, 46, 47);
+        background-image: initial;
+    }
+    .tab {
+        border-bottom-color: rgb(57, 62, 64);
+        list-style-image: initial;
+    }
+    .tab .tab-item a {
+        border-bottom-color: transparent;
+        color: inherit;
+        text-decoration-color: initial;
+    }
+    .tab .tab-item a:focus,
+    .tab .tab-item a:hover {
+        color: rgb(94, 139, 219);
+    }
+    .tab .tab-item a.active,
+    .tab .tab-item.active a {
+        border-bottom-color: rgb(32, 30, 134);
+        color: rgb(94, 139, 219);
+    }
+    .toast {
+        background-color: rgba(38, 44, 53, 0.95);
+        background-image: initial;
+        border-color: rgb(121, 113, 100);
+        color: rgb(232, 230, 227);
+    }
+    .toast.toast-primary {
+        background-color: rgba(34, 32, 144, 0.95);
+        background-image: initial;
+        border-color: rgb(32, 30, 134);
+    }
+    .toast.toast-success {
+        background-color: rgba(40, 146, 54, 0.95);
+        background-image: initial;
+        border-color: rgb(40, 145, 54);
+    }
+    .toast.toast-warning {
+        background-color: rgba(153, 110, 0, 0.95);
+        background-image: initial;
+        border-color: rgb(179, 128, 0);
+    }
+    .toast.toast-error {
+        background-color: rgba(186, 69, 0, 0.95);
+        background-image: initial;
+        border-color: rgb(185, 69, 0);
+    }
+    .toast a {
+        color: rgb(232, 230, 227);
+        text-decoration-color: initial;
+    }
+    .tooltip::after {
+        background-color: rgba(38, 44, 53, 0.95);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .text-primary {
+        color: rgb(94, 139, 219) !important;
+    }
+    a.text-primary:focus,
+    a.text-primary:hover {
+        color: rgb(80, 129, 216);
+    }
+    a.text-primary:visited {
+        color: rgb(109, 150, 223);
+    }
+    .text-secondary {
+        color: rgb(195, 212, 241) !important;
+    }
+    a.text-secondary:focus,
+    a.text-secondary:hover {
+        color: rgb(181, 201, 238);
+    }
+    a.text-secondary:visited {
+        color: rgb(209, 222, 246);
+    }
+    .text-gray {
+        color: rgb(195, 190, 182) !important;
+    }
+    a.text-gray:focus,
+    a.text-gray:hover {
+        color: rgb(187, 182, 173);
+    }
+    a.text-gray:visited {
+        color: rgb(204, 199, 192);
+    }
+    .text-light {
+        color: rgb(232, 230, 227) !important;
+    }
+    a.text-light:focus,
+    a.text-light:hover {
+        color: rgb(224, 221, 217);
+    }
+    a.text-light:visited {
+        color: rgb(232, 230, 227);
+    }
+    .text-dark {
+        color: rgb(188, 182, 173) !important;
+    }
+    a.text-dark:focus,
+    a.text-dark:hover {
+        color: rgb(196, 191, 183);
+    }
+    a.text-dark:visited {
+        color: rgb(180, 173, 164);
+    }
+    .text-success {
+        color: rgb(88, 209, 103) !important;
+    }
+    a.text-success:focus,
+    a.text-success:hover {
+        color: rgb(102, 212, 116);
+    }
+    a.text-success:visited {
+        color: rgb(76, 206, 93);
+    }
+    .text-warning {
+        color: rgb(255, 190, 26) !important;
+    }
+    a.text-warning:focus,
+    a.text-warning:hover {
+        color: rgb(255, 195, 43);
+    }
+    a.text-warning:visited {
+        color: rgb(255, 195, 44);
+    }
+    .text-error {
+        color: rgb(255, 121, 42) !important;
+    }
+    a.text-error:focus,
+    a.text-error:hover {
+        color: rgb(255, 132, 59);
+    }
+    a.text-error:visited {
+        color: rgb(255, 112, 28);
+    }
+    .bg-primary {
+        background-color: rgb(34, 32, 144) !important;
+        background-image: initial !important;
+        color: rgb(232, 230, 227);
+    }
+    .bg-secondary {
+        background-color: rgb(29, 31, 32) !important;
+        background-image: initial !important;
+    }
+    .bg-dark {
+        background-color: rgb(38, 44, 53) !important;
+        background-image: initial !important;
+        color: rgb(232, 230, 227);
+    }
+    .bg-gray {
+        background-color: #181818 !important;
+        background-image: initial !important;
+    }
+    .bg-success {
+        background-color: rgb(40, 146, 54) !important;
+        background-image: initial !important;
+        color: rgb(232, 230, 227);
+    }
+    .bg-warning {
+        background-color: rgb(153, 110, 0) !important;
+        background-image: initial !important;
+        color: rgb(232, 230, 227);
+    }
+    .bg-error {
+        background-color: rgb(186, 69, 0) !important;
+        background-image: initial !important;
+        color: rgb(232, 230, 227);
+    }
+    .text-hide {
+        background-color: initial;
+        background-image: initial;
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+        color: transparent;
+        text-shadow: none;
+    }
+    .text-assistive {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .divider-vert[data-content]::after,
+    .divider[data-content]::after {
+        background-color: #181818;
+        background-image: initial;
+        color: rgb(195, 190, 182);
+    }
+    .divider {
+        border-top-color: rgb(51, 56, 58);
+    }
+    .divider-vert::before {
+        border-left-color: rgb(57, 62, 64);
+    }
+    .loading {
+        color: transparent !important;
+    }
+    .loading::after {
+        background-color: initial;
+        background-image: initial;
+        border-color: transparent transparent rgb(32, 30, 134) rgb(32, 30, 134);
+    }
+    .form-autocomplete .form-autocomplete-input.is-focused {
+        border-color: rgb(32, 30, 134);
+        box-shadow: rgba(34, 32, 144, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .form-autocomplete .form-autocomplete-input .form-input {
+        border-color: transparent;
+        box-shadow: none;
+    }
+    .calendar {
+        border-color: rgb(57, 62, 64);
+    }
+    .calendar .calendar-nav {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .calendar .calendar-header {
+        background-color: #181818;
+        background-image: initial;
+        border-bottom-color: rgb(57, 62, 64);
+        color: rgb(195, 190, 182);
+    }
+    .calendar .calendar-body {
+        color: rgb(156, 147, 134);
+    }
+    .calendar .calendar-date {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .calendar .calendar-date .date-item {
+        background-color: initial;
+        background-image: initial;
+        border-color: transparent;
+        color: rgb(156, 147, 134);
+        outline-color: initial;
+        text-decoration-color: initial;
+    }
+    .calendar .calendar-date .date-item.date-today {
+        border-color: rgb(21, 21, 91);
+        color: rgb(94, 139, 219);
+    }
+    .calendar .calendar-date .date-item:focus {
+        box-shadow: rgba(34, 32, 144, 0.2) 0px 0px 0px 0.1rem;
+    }
+    .calendar .calendar-date .date-item:focus,
+    .calendar .calendar-date .date-item:hover {
+        background-color: #181818;
+        background-image: initial;
+        border-color: rgb(21, 21, 91);
+        color: rgb(94, 139, 219);
+        text-decoration-color: initial;
+    }
+    .calendar .calendar-date .date-item.active,
+    .calendar .calendar-date .date-item:active {
+        background-color: rgb(36, 34, 151);
+        background-image: initial;
+        border-color: rgb(33, 32, 144);
+        color: rgb(232, 230, 227);
+    }
+    .calendar .calendar-range::before {
+        background-color: rgb(29, 31, 32);
+        background-image: initial;
+    }
+    .calendar .calendar-range.range-end .date-item,
+    .calendar .calendar-range.range-start .date-item {
+        background-color: rgb(36, 34, 151);
+        background-image: initial;
+        border-color: rgb(33, 32, 144);
+        color: rgb(232, 230, 227);
+    }
+    .calendar .calendar-range .date-item {
+        color: rgb(94, 139, 219);
+    }
+    .calendar.calendar-lg .calendar-body .calendar-date {
+        border-bottom-color: rgb(57, 62, 64);
+        border-right-color: rgb(57, 62, 64);
+    }
+    .calendar.calendar-lg .calendar-body .calendar-date:nth-child(7n) {
+        border-right: 0px;
+    }
+    .calendar.calendar-lg .calendar-body .calendar-date:nth-last-child(-n+7) {
+        border-bottom: 0px;
+    }
+    .carousel .carousel-locator:nth-of-type(1):checked ~ .carousel-nav .nav-item:nth-of-type(1),
+    .carousel .carousel-locator:nth-of-type(2):checked ~ .carousel-nav .nav-item:nth-of-type(2),
+    .carousel .carousel-locator:nth-of-type(3):checked ~ .carousel-nav .nav-item:nth-of-type(3),
+    .carousel .carousel-locator:nth-of-type(4):checked ~ .carousel-nav .nav-item:nth-of-type(4),
+    .carousel .carousel-locator:nth-of-type(5):checked ~ .carousel-nav .nav-item:nth-of-type(5),
+    .carousel .carousel-locator:nth-of-type(6):checked ~ .carousel-nav .nav-item:nth-of-type(6),
+    .carousel .carousel-locator:nth-of-type(7):checked ~ .carousel-nav .nav-item:nth-of-type(7),
+    .carousel .carousel-locator:nth-of-type(8):checked ~ .carousel-nav .nav-item:nth-of-type(8) {
+        color: rgb(228, 225, 222);
+    }
+    .carousel {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .carousel .carousel-container .item-next,
+    .carousel .carousel-container .item-prev {
+        background-color: rgba(28, 30, 31, 0.25);
+        background-image: initial;
+        border-color: rgba(50, 54, 56, 0.5);
+        color: rgb(228, 225, 222);
+    }
+    .carousel .carousel-nav .nav-item {
+        color: rgba(228, 225, 222, 0.5);
+    }
+    .carousel .carousel-nav .nav-item::before {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .comparison-slider .comparison-after::before {
+        background-color: initial;
+        background-image: initial;
+    }
+    .comparison-slider .comparison-after::after {
+        background-color: currentcolor;
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .comparison-slider .comparison-resizer {
+        outline-color: initial;
+    }
+    .comparison-slider .comparison-label {
+        background-color: rgba(38, 44, 53, 0.5);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .filter .filter-tag#tag-0:checked ~ .filter-nav .chip[for="tag-0"],
+    .filter .filter-tag#tag-1:checked ~ .filter-nav .chip[for="tag-1"],
+    .filter .filter-tag#tag-2:checked ~ .filter-nav .chip[for="tag-2"],
+    .filter .filter-tag#tag-3:checked ~ .filter-nav .chip[for="tag-3"],
+    .filter .filter-tag#tag-4:checked ~ .filter-nav .chip[for="tag-4"],
+    .filter .filter-tag#tag-5:checked ~ .filter-nav .chip[for="tag-5"],
+    .filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"],
+    .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
+    .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        color: rgb(232, 230, 227);
+    }
+    .meter {
+        background-color: #181818;
+        background-image: initial;
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .meter::-webkit-meter-bar {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .meter::-webkit-meter-optimum-value {
+        background-color: rgb(40, 146, 54);
+        background-image: initial;
+    }
+    .meter::-webkit-meter-suboptimum-value {
+        background-color: rgb(153, 110, 0);
+        background-image: initial;
+    }
+    .meter::-webkit-meter-even-less-good-value {
+        background-color: rgb(186, 69, 0);
+        background-image: initial;
+    }
+    .off-canvas .off-canvas-sidebar {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .off-canvas .off-canvas-overlay {
+        background-color: rgba(38, 44, 53, 0.1);
+        background-image: initial;
+        border-color: transparent;
+    }
+    .parallax .parallax-content {
+        box-shadow: rgba(38, 44, 53, 0.3) 0px 1rem 2.1rem;
+    }
+    .parallax .parallax-front {
+        color: rgb(232, 230, 227);
+        text-shadow: rgba(38, 44, 53, 0.75) 0px 0px 20px;
+    }
+    .parallax .parallax-top-left {
+        outline-color: initial;
+    }
+    .parallax .parallax-top-left:focus ~ .parallax-content::before,
+    .parallax .parallax-top-left:hover ~ .parallax-content::before {
+        background-color: initial;
+        background-image: linear-gradient(135deg, rgba(24, 26, 27, 0.35) 0px, rgba(0, 0, 0, 0) 50%);
+    }
+    .parallax .parallax-top-right {
+        outline-color: initial;
+    }
+    .parallax .parallax-top-right:focus ~ .parallax-content::before,
+    .parallax .parallax-top-right:hover ~ .parallax-content::before {
+        background-color: initial;
+        background-image: linear-gradient(-135deg, rgba(24, 26, 27, 0.35) 0px, rgba(0, 0, 0, 0) 50%);
+    }
+    .parallax .parallax-bottom-left {
+        outline-color: initial;
+    }
+    .parallax .parallax-bottom-left:focus ~ .parallax-content::before,
+    .parallax .parallax-bottom-left:hover ~ .parallax-content::before {
+        background-color: initial;
+        background-image: linear-gradient(45deg, rgba(24, 26, 27, 0.35) 0px, rgba(0, 0, 0, 0) 50%);
+    }
+    .parallax .parallax-bottom-right {
+        outline-color: initial;
+    }
+    .parallax .parallax-bottom-right:focus ~ .parallax-content::before,
+    .parallax .parallax-bottom-right:hover ~ .parallax-content::before {
+        background-color: initial;
+        background-image: linear-gradient(-45deg, rgba(24, 26, 27, 0.35) 0px, rgba(0, 0, 0, 0) 50%);
+    }
+    .progress {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+        color: rgb(94, 139, 219);
+    }
+    .progress::-webkit-progress-bar {
+        background-color: initial;
+        background-image: initial;
+    }
+    .progress::-webkit-progress-value {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+    }
+    .progress:indeterminate {
+        background-color: rgb(32, 35, 36);
+        background-image: linear-gradient(to right, rgb(34, 32, 144) 30%, rgb(32, 35, 36) 30%);
+    }
+    .slider {
+        background-color: initial;
+        background-image: initial;
+    }
+    .slider:focus {
+        box-shadow: rgba(34, 32, 144, 0.2) 0px 0px 0px 0.1rem;
+        outline-color: initial;
+    }
+    .slider::-webkit-slider-thumb {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .slider.disabled::-webkit-slider-thumb,
+    .slider:disabled::-webkit-slider-thumb {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .slider::-webkit-slider-runnable-track {
+        background-color: rgb(32, 35, 36);
+        background-image: initial;
+    }
+    .timeline .timeline-item::before {
+        background-color: rgb(42, 46, 47);
+        background-image: initial;
+    }
+    .timeline .timeline-item .timeline-icon {
+        color: rgb(232, 230, 227);
+    }
+    .timeline .timeline-item .timeline-icon::before {
+        border-color: rgb(32, 30, 134);
+    }
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        background-color: rgb(34, 32, 144);
+        background-image: initial;
+    }
+    .icon-arrow-down::before,
+    .icon-arrow-left::before,
+    .icon-arrow-right::before,
+    .icon-arrow-up::before,
+    .icon-back::before,
+    .icon-downward::before,
+    .icon-forward::before,
+    .icon-upward::before {
+        border-bottom: 0px;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top-color: currentcolor;
+    }
+    .icon-back::after,
+    .icon-forward::after {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-downward::after,
+    .icon-upward::after {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-caret::before {
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-top-color: currentcolor;
+    }
+    .icon-menu::before {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-apps::before {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-resize-horiz::after,
+    .icon-resize-horiz::before,
+    .icon-resize-vert::after,
+    .icon-resize-vert::before {
+        border-bottom: 0px;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top-color: currentcolor;
+    }
+    .icon-more-horiz::before,
+    .icon-more-vert::before {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-cross::before,
+    .icon-minus::before,
+    .icon-plus::before {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-cross::after,
+    .icon-plus::after {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-check::before {
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top: 0px;
+    }
+    .icon-stop {
+        border-color: currentcolor;
+    }
+    .icon-stop::before {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-shutdown {
+        border-color: transparent currentcolor currentcolor;
+    }
+    .icon-shutdown::before {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-refresh::before {
+        border-color: currentcolor transparent currentcolor currentcolor;
+    }
+    .icon-refresh::after {
+        border-color: transparent currentcolor currentcolor transparent;
+    }
+    .icon-search::before {
+        border-color: currentcolor;
+    }
+    .icon-search::after {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-edit::before {
+        border-color: currentcolor;
+    }
+    .icon-edit::after {
+        border-color: transparent transparent currentcolor currentcolor;
+    }
+    .icon-delete::before {
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top: 0px;
+    }
+    .icon-delete::after {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-share {
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top: 0px;
+    }
+    .icon-share::before {
+        border-bottom-color: currentcolor;
+        border-left: 0px;
+        border-right-color: currentcolor;
+        border-top: 0px;
+    }
+    .icon-share::after {
+        border-bottom: 0px;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top-color: currentcolor;
+    }
+    .icon-flag::before {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-flag::after {
+        border-bottom-color: currentcolor;
+        border-left: 0px;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
+    }
+    .icon-bookmark::before {
+        border-bottom: 0px;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
+    }
+    .icon-bookmark::after {
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
+    }
+    .icon-download,
+    .icon-upload {
+        border-bottom-color: currentcolor;
+    }
+    .icon-download::before,
+    .icon-upload::before {
+        border-bottom: 0px;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top-color: currentcolor;
+    }
+    .icon-download::after,
+    .icon-upload::after {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-copy::before {
+        border-bottom: 0px;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top-color: currentcolor;
+    }
+    .icon-copy::after {
+        border-color: currentcolor;
+    }
+    .icon-time {
+        border-color: currentcolor;
+    }
+    .icon-time::before {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-time::after {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-mail::before {
+        border-color: currentcolor;
+    }
+    .icon-mail::after {
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top: 0px;
+    }
+    .icon-people::before {
+        border-color: currentcolor;
+    }
+    .icon-people::after {
+        border-color: currentcolor;
+    }
+    .icon-message {
+        border-bottom: 0px;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top-color: currentcolor;
+    }
+    .icon-message::before {
+        border-bottom-color: currentcolor;
+        border-left: 0px;
+        border-right-color: currentcolor;
+        border-top: 0px;
+    }
+    .icon-message::after {
+        background-color: currentcolor;
+        background-image: initial;
+    }
+    .icon-photo {
+        border-color: currentcolor;
+    }
+    .icon-photo::before {
+        border-color: currentcolor;
+    }
+    .icon-photo::after {
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
+    }
+    .icon-link::after,
+    .icon-link::before {
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right: 0px;
+        border-top-color: currentcolor;
+    }
+    .icon-location::before {
+        border-color: currentcolor;
+    }
+    .icon-location::after {
+        border-color: currentcolor;
+    }
+    .icon-emoji {
+        border-color: currentcolor;
+    }
+    .icon-emoji::after {
+        border-color: currentcolor transparent transparent currentcolor;
+    }
+    a {
+        color: rgb(79, 168, 255);
+    }
+    a:visited {
+        color: rgb(114, 152, 220);
+    }
+    a:hover {
+        color: rgb(163, 155, 143);
+        text-decoration-color: initial;
+    }
+    .off-canvas-overlay {
+        background-color: rgba(0, 0, 0, 0.2);
+        background-image: initial;
+    }
+    .off-canvas-content .book-content .book-post a:hover {
+        text-decoration-color: initial;
+    }
+    .off-canvas-content .book-content .book-post h1,
+    .off-canvas-content .book-content .book-post h2 {
+        border-bottom-color: rgb(55, 59, 62);
+    }
+    .off-canvas-content .book-content .book-post h6 {
+        color: rgb(152, 143, 129);
+    }
+    .off-canvas-content .book-content .book-post hr {
+        background-color: rgb(38, 41, 42);
+        border-color: rgb(55, 59, 62);
+    }
+    .off-canvas-content .book-content .book-post .table-wrapper table th,
+    .off-canvas-content .book-content .book-post .table-wrapper table td {
+        border-color: rgb(55, 59, 62);
+    }
+    .off-canvas-content .book-content .book-post blockquote.right {
+        border-left: none;
+        border-right-color: rgb(57, 62, 64);
+    }
+    .off-canvas-content .book-content .book-post .tip {
+        background-color: rgb(9, 66, 58);
+        border-left-color: rgb(23, 168, 139);
+    }
+    .off-canvas-content .book-content .book-post .attention {
+        background-color: rgb(82, 53, 0);
+        border-left-color: rgb(130, 69, 15);
+    }
+    .off-canvas-content .book-content .highlight,
+    .off-canvas-content .book-content pre {
+        background-color: rgb(29, 31, 32);
+        background-image: initial;
+        color: rgb(184, 178, 168);
+    }
+    .off-canvas-content .book-content pre code {
+        background-color: initial;
+        background-image: none;
+        color: rgb(184, 178, 168);
+        text-shadow: none;
+    }
+    .off-canvas-content .book-content .highlight ::selection {
+        background-color: rgb(47, 51, 53);
+        background-image: initial;
+    }
+    .off-canvas-content .book-content .highlight pre {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .off-canvas-content .book-content .highlight table {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .off-canvas-content .book-content .highlight td {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .off-canvas-content .book-content .highlight figcaption {
+        background-color: rgb(29, 36, 39);
+        background-image: initial;
+        color: rgb(160, 152, 139);
+    }
+    .off-canvas-content .book-content .highlight figcaption a {
+        color: rgb(184, 178, 168);
+    }
+    .off-canvas-content .book-content .highlight figcaption a:hover {
+        border-bottom-color: rgb(115, 107, 94);
+    }
+    .off-canvas-content .book-content .highlight .marked {
+        background-color: rgb(63, 48, 7);
+        background-image: initial;
+        border-bottom-color: rgb(127, 91, 0);
+        color: rgb(188, 182, 173);
+    }
+    .off-canvas-content .book-content .highlight .gutter pre {
+        background-color: rgb(29, 36, 39);
+        background-image: initial;
+        color: rgb(160, 152, 139);
+    }
+    .off-canvas-content .book-content .highlight .code pre {
+        background-color: rgb(29, 31, 32);
+        background-image: initial;
+    }
+    .off-canvas-content .book-content .gist table td {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .off-canvas-content .book-content pre .meta {
+        color: rgb(255, 208, 40);
+    }
+    .off-canvas-content .book-content pre .comment {
+        color: rgb(161, 152, 140);
+    }
+    .off-canvas-content .book-content pre .variable,
+    .off-canvas-content .book-content pre .attribute,
+    .off-canvas-content .book-content pre .tag,
+    .off-canvas-content .book-content pre .name,
+    .off-canvas-content .book-content pre .regexp,
+    .off-canvas-content .book-content pre .ruby .constant,
+    .off-canvas-content .book-content pre .xml .tag .title,
+    .off-canvas-content .book-content pre .xml .pi,
+    .off-canvas-content .book-content pre .xml .doctype,
+    .off-canvas-content .book-content pre .html .doctype,
+    .off-canvas-content .book-content pre .css .id,
+    .off-canvas-content .book-content pre .css .class,
+    .off-canvas-content .book-content pre .css .pseudo {
+        color: rgb(219, 73, 73);
+    }
+    .off-canvas-content .book-content pre .number,
+    .off-canvas-content .book-content pre .preprocessor,
+    .off-canvas-content .book-content pre .built_in,
+    .off-canvas-content .book-content pre .builtin-name,
+    .off-canvas-content .book-content pre .literal,
+    .off-canvas-content .book-content pre .params,
+    .off-canvas-content .book-content pre .constant,
+    .off-canvas-content .book-content pre .command {
+        color: rgb(246, 145, 49);
+    }
+    .off-canvas-content .book-content pre .ruby .class .title,
+    .off-canvas-content .book-content pre .css .rules .attribute,
+    .off-canvas-content .book-content pre .string,
+    .off-canvas-content .book-content pre .symbol,
+    .off-canvas-content .book-content pre .value,
+    .off-canvas-content .book-content pre .inheritance,
+    .off-canvas-content .book-content pre .header,
+    .off-canvas-content .book-content pre .ruby .symbol,
+    .off-canvas-content .book-content pre .xml .cdata,
+    .off-canvas-content .book-content pre .special,
+    .off-canvas-content .book-content pre .formula {
+        color: rgb(226, 255, 106);
+    }
+    .off-canvas-content .book-content pre .title,
+    .off-canvas-content .book-content pre .css .hexcolor {
+        color: rgb(107, 192, 197);
+    }
+    .off-canvas-content .book-content pre .function,
+    .off-canvas-content .book-content pre .python .decorator,
+    .off-canvas-content .book-content pre .python .title,
+    .off-canvas-content .book-content pre .ruby .function .title,
+    .off-canvas-content .book-content pre .ruby .title .keyword,
+    .off-canvas-content .book-content pre .perl .sub,
+    .off-canvas-content .book-content pre .javascript .title,
+    .off-canvas-content .book-content pre .coffeescript .title {
+        color: rgb(114, 160, 201);
+    }
+    .off-canvas-content .book-content pre .keyword,
+    .off-canvas-content .book-content pre .javascript .function {
+        color: rgb(149, 105, 177);
+    }
+    .off-canvas-content .book-post-info .book-post-meta .author .author-img figure {
+        background-color: #181818;
+        background-image: initial;
+    }
+    .off-canvas-content .book-post-info .book-post-meta .link a {
+        color: rgb(188, 182, 173);
+    }
+    .off-canvas-content .book-post-info .book-post-meta .link a:hover {
+        color: rgb(152, 143, 129);
+    }
+    .off-canvas-content .book-post-info .book-tocbot ul {
+        list-style-image: initial;
+    }
+    .off-canvas-content .book-post-info .book-tocbot .toc-link::before {
+        background-color: #181818 !important;
+    }
+    .off-canvas-content .book-post-info .book-tocbot .is-active-link::before {
+        background-color: rgb(0, 62, 166) !important;
+    }
+    .off-canvas-content .book-post-info .book-tocbot-menu a {
+        color: rgb(168, 160, 149);
+    }
+    .off-canvas-content .book-post-info .book-tocbot-menu a:hover {
+        color: rgb(152, 143, 129);
+    }
+    .book-navbar i {
+        color: rgb(202, 198, 191);
+    }
+    .book-sidebar {
+        background-color: #181818;
+    }
+    .book-sidebar .book-brand a {
+        color: rgb(202, 198, 191);
+        text-decoration-color: initial;
+    }
+    .book-sidebar .book-brand a:hover {
+        color: rgb(202, 198, 191);
+        text-decoration-color: initial;
+    }
+    .book-sidebar .book-menu ul,
+    .book-sidebar .book-menu ol,
+    .book-sidebar .book-menu li {
+        list-style-image: initial;
+    }
+    .book-sidebar .book-menu .uncollapsible {
+        border-top-color: rgb(55, 59, 62);
+    }
+    .book-sidebar .book-menu .accordion {
+        border-top-color: rgb(55, 59, 62);
+    }
+    .book-sidebar .book-menu .accordion i.icon-arrow-down::before {
+        border-color: rgb(105, 98, 87);
+    }
+    .book-sidebar .book-menu a {
+        color: rgb(202, 198, 191);
+    }
+    .book-sidebar .book-menu a:hover {
+        color: rgb(152, 143, 129);
+    }
+    .book-sidebar .book-menu .current-tab {
+        color: rgb(79, 168, 255);
+    }
+    .sidebar-toggle {
+        border-color: rgb(106, 98, 87);
+    }
+    .sidebar-toggle > .sidebar-toggle-inner {
+        background-color: rgb(78, 85, 88);
+    }
+    .book-archive h2 {
+        border-bottom-color: rgb(55, 59, 62);
+    }
+    .book-archive .archive-list-item {
+        list-style-image: initial;
+    }
+    .admonition {
+        background-color: rgb(27, 29, 30);
+        border-left-color: rgb(47, 132, 94);
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0.1rem 0.4rem, rgba(0, 0, 0, 0.1) 0px 0px 0.05rem;
+    }
+    p.admonition-title {
+        background-color: rgba(53, 148, 105, 0.1);
+    }
+    .admonition-title::before {
+        background-color: rgb(53, 148, 105);
+    }
+    .info > .admonition-title,
+    .todo > .admonition-title {
+        background-color: rgba(0, 147, 170, 0.1);
+    }
+    .warning > .admonition-title,
+    .attention > .admonition-title,
+    .caution > .admonition-title {
+        background-color: rgba(204, 116, 0, 0.1);
+    }
+    .failure > .admonition-title,
+    .missing > .admonition-title,
+    .fail > .admonition-title,
+    .error > .admonition-title {
+        background-color: rgba(155, 0, 0, 0.1);
+    }
+    .admonition.info,
+    .admonition.todo {
+        border-color: rgb(0, 166, 191);
+    }
+    .admonition.warning,
+    .admonition.attention,
+    .admonition.caution {
+        border-color: rgb(179, 102, 0);
+    }
+    .admonition.failure,
+    .admonition.missing,
+    .admonition.fail,
+    .admonition.error {
+        border-color: rgb(154, 0, 0);
+    }
+    .info > .admonition-title::before,
+    .todo > .admonition-title::before {
+        background-color: rgb(0, 147, 170);
+    }
+    .warning > .admonition-title::before,
+    .attention > .admonition-title::before,
+    .caution > .admonition-title::before {
+        background-color: rgb(204, 116, 0);
+    }
+    .failure > .admonition-title::before,
+    .missing > .admonition-title::before,
+    .fail > .admonition-title::before,
+    .error > .admonition-title::before {
+        background-color: rgb(155, 0, 0);
+    }
+    .toc > .toc-list li {
+        list-style-image: initial;
+    }
+    a.toc-link {
+        color: currentcolor;
+    }
+    .toc-link::before {
+        background-color: rgb(34, 36, 38);
+    }
+    .is-active-link::before {
+        background-color: rgb(82, 145, 54);
+    }
+    .katex * {
+        forced-color-adjust: none !important;
+    }
+    .katex .katex-mathml {
+        border-color: initial;
+        border-style: initial;
+        border-width: 0px;
+    }
+    .katex .rule {
+        border-color: initial;
+        border-style: solid;
+        border-width: 0px;
+    }
+    .katex .mtable .vertical-separator {
+        border-right-color: initial;
+    }
+    .katex .mtable .vs-dashed {
+        border-right-color: initial;
+    }
+    .katex svg {
+        fill: currentcolor;
+        stroke: currentcolor;
+    }
+    .katex svg path {
+        stroke: none;
+    }
+    .katex .fbox {
+        border-color: rgb(140, 130, 115);
+    }
+    .katex .fcolorbox {
+        border-color: initial;
+    }
+    .collapse .collapse-cardtitle {
+        background-color: rgba(0, 0, 0, 0.18);
+        background-image: initial;
+    }
+    .collapse .collapse-cardborder {
+        border-color: rgba(140, 130, 115, 0.18);
+    }
+    .collapse .collapse-border {
+        border-color: rgba(140, 130, 115, 0.18);
+    }
+    
+    /* Override Style */
+    .vimvixen-hint {
+        background-color: #684b00 !important;
+        border-color: #9e7e00 !important;
+        color: #d7d4cf !important;
+    }
+    #vimvixen-console-frame {
+        color-scheme: light !important;
+    }
+    ::placeholder {
+        opacity: 0.5 !important;
+    }
+    #edge-translate-panel-body,
+    .MuiTypography-body1,
+    .nfe-quote-text {
+        color: var(--darkreader-neutral-text) !important;
+    }
+    gr-main-header {
+        background-color: #1b4958 !important;
+    }
+    .tou-z65h9k,
+    .tou-mignzq,
+    .tou-1b6i2ox,
+    .tou-lnqlqk {
+        background-color: var(--darkreader-neutral-background) !important;
+    }
+    .tou-75mvi {
+        background-color: #0f3a47 !important;
+    }
+    .tou-ta9e87,
+    .tou-1w3fhi0,
+    .tou-1b8t2us,
+    .tou-py7lfi,
+    .tou-1lpmd9d,
+    .tou-1frrtv8,
+    .tou-17ezmgn {
+        background-color: #1e2021 !important;
+    }
+    .tou-uknfeu {
+        background-color: #432c09 !important;
+    }
+    .tou-6i3zyv {
+        background-color: #245d70 !important;
+    }
+    div.mermaid-viewer-control-panel .btn {
+        background-color: var(--darkreader-neutral-background);
+        fill: var(--darkreader-neutral-text);
+    }
+    svg g rect.er {
+        fill: var(--darkreader-neutral-background) !important;
+    }
+    svg g rect.er.entityBox {
+        fill: var(--darkreader-neutral-background) !important;
+    }
+    svg g rect.er.attributeBoxOdd {
+        fill: var(--darkreader-neutral-background) !important;
+    }
+    svg g rect.er.attributeBoxEven {
+        fill: var(--darkreader-selection-background);
+        fill-opacity: 0.8 !important;
+    }
+    svg rect.er.relationshipLabelBox {
+        fill: var(--darkreader-neutral-background) !important;
+    }
+    svg g g.nodes rect,
+    svg g g.nodes polygon {
+        fill: var(--darkreader-neutral-background) !important;
+    }
+    svg g rect.task {
+        fill: var(--darkreader-selection-background) !important;
+    }
+    svg line.messageLine0,
+    svg line.messageLine1 {
+        stroke: var(--darkreader-neutral-text) !important;
+    }
+    div.mermaid .actor {
+        fill: var(--darkreader-neutral-background) !important;
+    }
+    mitid-authenticators-code-app > .code-app-container {
+        background-color: white !important;
+        padding-top: 1rem;
+    }
+    iframe#unpaywall[src$="unpaywall.html"] {
+        color-scheme: light !important;
+    }
+    
