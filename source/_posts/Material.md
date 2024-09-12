@@ -8,7 +8,8 @@ tags:
 
 ### 高祥老师班
 
-- [概述](http://8.130.103.241/public/course/2/grep.pdf)
+- [Lesson1](http://10.251.252.238/public/course/2/Lecture1-intro_%E9%AB%98%E7%8F%AD.pdf)
+- [Lesson2](http://10.251.252.238/public/course/2/Lecture2-%E5%B0%81%E8%A3%85_%E9%AB%98%E7%8F%AD.pdf)
 
 ### 申学萍老师班
 
