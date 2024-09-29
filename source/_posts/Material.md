@@ -18,6 +18,8 @@ tags:
 - [Lesson1](http://10.251.252.238/public/course/2/Lesson1_%E7%94%B3%E7%8F%AD.pdf)
 - [认识 Java](http://10.251.252.238/public/course/2/%E8%AE%A4%E8%AF%86JAVA_%E7%94%B3%E7%8F%AD.pdf)
 - [Lesson2](http://10.251.252.238/public/course/2/Lesson2_%E7%94%B3%E7%8F%AD.pdf)
+- [Lesson3](http://10.251.252.238/public/course/2/Lesson3_%E7%94%B3%E7%8F%AD.pdf)
+- [Lesson4_1](http://10.251.252.238/public/course/2/Lesson4_1_%E7%94%B3%E7%8F%AD.pdf)
 
 **自学内容**
 
