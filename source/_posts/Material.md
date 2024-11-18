@@ -8,8 +8,10 @@ tags:
 
 ### 高祥老师班
 
-- [Lesson1](http://10.251.252.238/public/course/2/Lecture1-intro_%E9%AB%98%E7%8F%AD.pdf)
-- [Lesson2](http://10.251.252.238/public/course/2/Lecture2-%E5%B0%81%E8%A3%85_%E9%AB%98%E7%8F%AD.pdf)
+- [Lecture1-intro](http://10.251.252.238/public/course/2/Lecture1-intro_%E9%AB%98%E7%8F%AD.pdf)
+- [Lecture2-封装](http://10.251.252.238/public/course/2/Lecture2-%E5%B0%81%E8%A3%85_%E9%AB%98%E7%8F%AD.pdf)
+- [Lecture3&4-封装 2](http://10.251.252.238/public/course/2/Lecture3&4-%E5%B0%81%E8%A3%852.pdf)
+- [Lecture5-继承](http://10.251.252.238/public/course/2/Lecture5-%E7%BB%A7%E6%89%BF.pdf)
 
 ### 申雪萍老师班
 
@@ -20,6 +22,14 @@ tags:
 - [Lesson2](http://10.251.252.238/public/course/2/Lesson2_%E7%94%B3%E7%8F%AD.pdf)
 - [Lesson3](http://10.251.252.238/public/course/2/Lesson3_%E7%94%B3%E7%8F%AD.pdf)
 - [Lesson4_1](http://10.251.252.238/public/course/2/Lesson4_1_%E7%94%B3%E7%8F%AD.pdf)
+- [Lesson4_2](http://10.251.252.238/public/course/2/Lesson4_2.pdf)
+- [Lesson5](http://10.251.252.238/public/course/2/Lesson5.pdf)
+- [Lesson6](http://10.251.252.238/public/course/2/Lesson6.pdf)
+- [多态 1](http://10.251.252.238/public/course/2/%E5%A4%9A%E6%80%81_1.pdf)
+- [多态 2](<http://10.251.252.238/public/course/2/%E5%A4%9A%E6%80%81_2(1).pdf>)
+- [完善类的设计 1](http://10.251.252.238/public/course/2/%E5%AE%8C%E5%96%84%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1_1.pptx)
+- [完善类的设计 2](http://10.251.252.238/public/course/2/%E5%AE%8C%E5%96%84%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1_2.pdf)
+- [异常处理](http://10.251.252.238/public/course/2/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.pdf)
 
 **自学内容**
 
