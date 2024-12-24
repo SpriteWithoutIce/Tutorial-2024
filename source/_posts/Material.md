@@ -12,6 +12,16 @@ tags:
 - [Lecture2-封装](http://10.251.252.238/public/course/2/Lecture2-%E5%B0%81%E8%A3%85_%E9%AB%98%E7%8F%AD.pdf)
 - [Lecture3&4-封装 2](http://10.251.252.238/public/course/2/Lecture3&4-%E5%B0%81%E8%A3%852.pdf)
 - [Lecture5-继承](http://10.251.252.238/public/course/2/Lecture5-%E7%BB%A7%E6%89%BF.pdf)
+- [多态 1](http://10.251.252.238/public/course/2/Lecture6-多态1.pdf)
+- [多态 2](http://10.251.252.238/public/course/2/Lecture7-多态2.pdf)
+- [设计原则](http://10.251.252.238/public/course/2/Lecture8-设计原则.pdf)
+- [设计模式](http://10.251.252.238/public/course/2/Lecture9-设计模式.pdf)
+- [异常和 JUnit](http://10.251.252.238/public/course/2/Lecture10-异常&Junit.pdf)
+- [集合](http://10.251.252.238/public/course/2/Lecture11-集合.pdf)
+- [多线程](http://10.251.252.238/public/course/2/Lecture12-多线程.pdf)
+- [网络编程](http://10.251.252.238/public/course/2/Lecture13-网络编程.pdf)
+- [IO](http://10.251.252.238/public/course/2/Lecture14-IO.pdf)
+- [GUI](http://10.251.252.238/public/course/2/Lecture15_图形界面程序设计.pdf)
 
 ### 申雪萍老师班
 
