@@ -6,7 +6,7 @@ tags:
 
 ## 课程资料
 
-- [期末串讲 PPT](http://10.251.252.238/public/course/2/%E3%80%8A%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E3%80%8B%E6%9C%9F%E6%9C%AB%E4%B8%B2%E8%AE%B2.pdf)
+- [期末串讲 PPT](http://10.251.252.238/public/course/2/%E3%80%8A%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E3%80%8B%E4%B8%B2%E8%AE%B2.pdf)
 
 ### 高祥老师班
 
